@@ -1,0 +1,8 @@
+- method: GET
+  route: /
+- method: POST
+  route: /
+  data: '{ "data": "value" }'
+- method: DELETE
+  route: /
+  file: ./delete.json
